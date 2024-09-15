@@ -4,6 +4,7 @@ import com.brunosalata.digital_bank_api.domain.model.User;
 import com.brunosalata.digital_bank_api.domain.repository.UserRepository;
 import com.brunosalata.digital_bank_api.service.UserService;
 import com.brunosalata.digital_bank_api.service.exception.BusinessException;
+import com.brunosalata.digital_bank_api.service.exception.NotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
